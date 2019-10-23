@@ -21,7 +21,7 @@
  */
 
 import * as net from "net";
-import {ProviderResolver, ProvidersModuleFactory, HttpProvider} from 'web3-providers';
+import {ProviderResolver, ProvidersModuleFactory, HttpProvider} from '@daocasino/web3-providers';
 
 const options = {
     timeout: 20000,

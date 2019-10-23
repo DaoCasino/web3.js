@@ -17,8 +17,8 @@
  * @date 2018
  */
 
-import {Log, Transaction, TransactionReceipt, RLPEncodedTransaction} from 'web3-core';
-import {Eth, Subscribe, BlockHeader, Syncing, Block} from 'web3-eth';
+import {Log, Transaction, TransactionReceipt, RLPEncodedTransaction} from '@daocasino/web3-core';
+import {Eth, Subscribe, BlockHeader, Syncing, Block} from '@daocasino/web3-eth';
 
 const eth = new Eth('http://localhost:8545');
 

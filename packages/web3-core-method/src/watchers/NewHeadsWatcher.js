@@ -20,7 +20,7 @@
  * @date 2018
  */
 
-import {WebsocketProvider, IpcProvider, EthereumProvider} from 'web3-providers';
+import {WebsocketProvider, IpcProvider, EthereumProvider} from '@daocasino/web3-providers';
 import EventEmitter from 'eventemitter3';
 
 export default class NewHeadsWatcher extends EventEmitter {

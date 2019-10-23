@@ -20,7 +20,7 @@
  * @date 2018
  */
 
-import {BN, sha3} from 'web3-utils';
+import {BN, sha3} from '@daocasino/web3-utils';
 
 // $ExpectType string
 sha3('234');

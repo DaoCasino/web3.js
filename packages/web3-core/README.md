@@ -14,7 +14,7 @@ npm install web3-core
 ## Usage
 
 ```js
-import {AbstractWeb3Module} from 'web3-core';
+import {AbstractWeb3Module} from '@daocasino/web3-core';
 
 new AbstractWeb3Module(...);
 ```

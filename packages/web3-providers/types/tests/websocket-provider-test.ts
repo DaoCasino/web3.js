@@ -20,7 +20,7 @@
  * @date 2018
  */
 
-import {WebsocketProvider, WebsocketProviderOptions} from 'web3-providers';
+import {WebsocketProvider, WebsocketProviderOptions} from '@daocasino/web3-providers';
 
 const options: WebsocketProviderOptions = {
     timeout: 30000,

@@ -1,6 +1,6 @@
-import * as Utils from 'web3-utils';
-import {formatters} from 'web3-core-helpers';
-import {HttpProvider, ProvidersModuleFactory, ProviderDetector, ProviderResolver} from 'web3-providers';
+import * as Utils from '@daocasino/web3-utils';
+import {formatters} from '@daocasino/web3-core-helpers';
+import {HttpProvider, ProvidersModuleFactory, ProviderDetector, ProviderResolver} from '@daocasino/web3-providers';
 import {
     MethodModuleFactory,
     GetAccountsMethod,
@@ -12,9 +12,9 @@ import {
     PersonalSignTransactionMethod,
     PersonalSignMethod,
     EcRecoverMethod
-} from 'web3-core-method';
-import {Network} from 'web3-net';
-import {AbstractWeb3Module} from 'web3-core';
+} from '@daocasino/web3-core-method';
+import {Network} from '@daocasino/web3-net';
+import {AbstractWeb3Module} from '@daocasino/web3-core';
 import MethodFactory from '../../src/factories/MethodFactory';
 import Personal from '../../src/Personal';
 

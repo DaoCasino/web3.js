@@ -1,4 +1,4 @@
-import {AbiCoder} from 'web3-eth-abi';
+import {AbiCoder} from '@daocasino/web3-eth-abi';
 import AbiItemModel from '../../../src/models/AbiItemModel';
 import EventFilterEncoder from '../../../src/encoders/EventFilterEncoder';
 

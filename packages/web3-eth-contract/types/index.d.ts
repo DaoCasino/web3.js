@@ -17,9 +17,9 @@
  * @date 2018
  */
 
-import {provider} from 'web3-providers';
-import {AbiItem, BN} from 'web3-utils';
-import {PromiEvent} from 'web3-core';
+import {provider} from '@daocasino/web3-providers';
+import {AbiItem, BN} from '@daocasino/web3-utils';
+import {PromiEvent} from '@daocasino/web3-core';
 
 export class Contract {
     constructor(

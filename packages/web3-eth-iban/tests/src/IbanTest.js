@@ -1,5 +1,5 @@
 import BigNumber from 'bn.js';
-import * as Utils from 'web3-utils';
+import * as Utils from '@daocasino/web3-utils';
 import Iban from '../../src/Iban';
 
 // Mocks

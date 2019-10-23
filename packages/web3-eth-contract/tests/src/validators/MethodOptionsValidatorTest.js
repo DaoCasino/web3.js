@@ -1,4 +1,4 @@
-import * as Utils from 'web3-utils';
+import * as Utils from '@daocasino/web3-utils';
 import SendContractMethod from '../../../src/methods/SendContractMethod';
 import MethodOptionsValidator from '../../../src/validators/MethodOptionsValidator';
 

@@ -20,7 +20,7 @@
  * @date 2018
  */
 
-import {BN, numberToHex} from 'web3-utils';
+import {BN, numberToHex} from '@daocasino/web3-utils';
 
 // $ExpectType string
 numberToHex('232');

@@ -1,4 +1,4 @@
-import {formatters} from 'web3-core-helpers';
+import {formatters} from '@daocasino/web3-core-helpers';
 import AbstractCallMethod from '../../../../lib/methods/AbstractCallMethod';
 import LockAccountMethod from '../../../../src/methods/personal/LockAccountMethod';
 

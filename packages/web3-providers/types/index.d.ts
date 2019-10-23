@@ -21,8 +21,8 @@
  */
 
 import * as net from 'net';
-import {AbstractWeb3Module} from 'web3-core';
-import {AbstractMethod} from 'web3-core-method';
+import {AbstractWeb3Module} from '@daocasino/web3-core';
+import {AbstractMethod} from '@daocasino/web3-core-method';
 
 export class BatchRequest {
     constructor(moduleInstance: AbstractWeb3Module);

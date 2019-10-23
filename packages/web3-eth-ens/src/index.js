@@ -17,14 +17,14 @@
  * @date 2018
  */
 
-import {PromiEvent} from 'web3-core-promievent';
-import {ProvidersModuleFactory} from 'web3-providers';
-import * as Utils from 'web3-utils';
-import {formatters} from 'web3-core-helpers';
-import {MethodModuleFactory} from 'web3-core-method';
-import {ContractModuleFactory} from 'web3-eth-contract';
-import {AbiCoder} from 'web3-eth-abi';
-import {Network} from 'web3-net';
+import {PromiEvent} from '@daocasino/web3-core-promievent';
+import {ProvidersModuleFactory} from '@daocasino/web3-providers';
+import * as Utils from '@daocasino/web3-utils';
+import {formatters} from '@daocasino/web3-core-helpers';
+import {MethodModuleFactory} from '@daocasino/web3-core-method';
+import {ContractModuleFactory} from '@daocasino/web3-eth-contract';
+import {AbiCoder} from '@daocasino/web3-eth-abi';
+import {Network} from '@daocasino/web3-net';
 import EnsModuleFactory from './factories/EnsModuleFactory';
 
 /**

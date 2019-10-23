@@ -20,7 +20,7 @@
  * @date 2018
  */
 
-import {BN, checkAddressChecksum} from 'web3-utils';
+import {BN, checkAddressChecksum} from '@daocasino/web3-utils';
 
 // $ExpectType boolean
 checkAddressChecksum('0x8ee7f17bb3f88b01247c21ab6603880b64ae53e811f5e01138822e558cf1ab51');

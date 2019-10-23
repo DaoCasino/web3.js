@@ -20,7 +20,7 @@
  * @date 2018
  */
 
-import {BN, toDecimal} from 'web3-utils';
+import {BN, toDecimal} from '@daocasino/web3-utils';
 
 // $ExpectType number
 toDecimal('232');

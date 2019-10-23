@@ -1,4 +1,4 @@
-import {PromiEvent} from 'web3-core-promievent';
+import {PromiEvent} from '@daocasino/web3-core-promievent';
 import AbstractContract from '../../../src/AbstractContract';
 import AbiModel from '../../../src/models/AbiModel';
 import EventSubscriptionFactory from '../../../src/factories/EventSubscriptionFactory';

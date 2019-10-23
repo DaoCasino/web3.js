@@ -1,4 +1,4 @@
-import * as Utils from 'web3-utils';
+import * as Utils from '@daocasino/web3-utils';
 import AbstractCallMethod from '../../../../lib/methods/AbstractCallMethod';
 import GetCoinbaseMethod from '../../../../src/methods/node/GetCoinbaseMethod';
 

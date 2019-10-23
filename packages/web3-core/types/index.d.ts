@@ -28,7 +28,7 @@ import {
     ProvidersModuleFactory,
     WebsocketProvider,
     WebsocketProviderOptions
-} from 'web3-providers';
+} from '@daocasino/web3-providers';
 
 export class AbstractWeb3Module {
     constructor(

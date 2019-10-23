@@ -1,5 +1,5 @@
-import {AbstractWeb3Module} from 'web3-core';
-import {PromiEvent} from 'web3-core-promievent';
+import {AbstractWeb3Module} from '@daocasino/web3-core';
+import {PromiEvent} from '@daocasino/web3-core-promievent';
 import TransactionReceiptValidator from '../../../src/validators/TransactionReceiptValidator';
 import NewHeadsWatcher from '../../../src/watchers/NewHeadsWatcher';
 import AbstractMethod from '../../../lib/methods/AbstractMethod';

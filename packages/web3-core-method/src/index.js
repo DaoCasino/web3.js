@@ -24,9 +24,9 @@
  */
 
 import ModuleFactory from './factories/ModuleFactory';
-import {SubscriptionsFactory} from 'web3-core-subscriptions';
-import {formatters} from 'web3-core-helpers';
-import * as Utils from 'web3-utils';
+import {SubscriptionsFactory} from '@daocasino/web3-core-subscriptions';
+import {formatters} from '@daocasino/web3-core-helpers';
+import * as Utils from '@daocasino/web3-utils';
 
 /**
  * Returns the ModuleFactory of the method module

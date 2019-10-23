@@ -21,7 +21,7 @@
  * @date 2018
  */
 
-import {AbstractWeb3Module} from 'web3-core';
+import {AbstractWeb3Module} from '@daocasino/web3-core';
 
 export default class Personal extends AbstractWeb3Module {
     /**

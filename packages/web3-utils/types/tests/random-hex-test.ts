@@ -20,7 +20,7 @@
  * @date 2018
  */
 
-import {BN, randomHex} from 'web3-utils';
+import {BN, randomHex} from '@daocasino/web3-utils';
 
 // $ExpectType string
 randomHex(32);

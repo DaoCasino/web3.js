@@ -19,9 +19,9 @@
  * @date 2018
  */
 
-import {RLPEncodedTransaction} from 'web3-core';
-import {Personal} from 'web3-eth-personal';
-import {Accounts} from 'web3-eth-accounts';
+import {RLPEncodedTransaction} from '@daocasino/web3-core';
+import {Personal} from '@daocasino/web3-eth-personal';
+import {Accounts} from '@daocasino/web3-eth-accounts';
 
 const personal = new Personal('http://localhost:7545', new Accounts('http://localhost:7545'));
 

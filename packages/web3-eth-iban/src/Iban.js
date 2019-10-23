@@ -25,7 +25,7 @@
 
 'use strict';
 
-import * as Utils from 'web3-utils';
+import * as Utils from '@daocasino/web3-utils';
 import BigNumber from 'bn.js';
 
 const leftPad = (string, bytes) => {

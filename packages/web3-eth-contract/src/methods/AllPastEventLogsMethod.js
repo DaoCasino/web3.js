@@ -20,7 +20,7 @@
  * @date 2018
  */
 
-import {GetPastLogsMethod} from 'web3-core-method';
+import {GetPastLogsMethod} from '@daocasino/web3-core-method';
 
 export default class AllPastEventLogsMethod extends GetPastLogsMethod {
     /**

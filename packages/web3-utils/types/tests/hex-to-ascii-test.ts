@@ -20,7 +20,7 @@
  * @date 2018
  */
 
-import {BN, hexToAscii} from 'web3-utils';
+import {BN, hexToAscii} from '@daocasino/web3-utils';
 
 // $ExpectType string
 hexToAscii('0x4920686176652031303021');

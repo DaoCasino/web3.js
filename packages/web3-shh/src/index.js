@@ -20,12 +20,12 @@
  * @date 2018
  */
 
-import {ProvidersModuleFactory} from 'web3-providers';
-import {MethodModuleFactory} from 'web3-core-method';
-import {SubscriptionsFactory} from 'web3-core-subscriptions';
-import {Network} from 'web3-net';
-import * as Utils from 'web3-utils';
-import {formatters} from 'web3-core-helpers';
+import {ProvidersModuleFactory} from '@daocasino/web3-providers';
+import {MethodModuleFactory} from '@daocasino/web3-core-method';
+import {SubscriptionsFactory} from '@daocasino/web3-core-subscriptions';
+import {Network} from '@daocasino/web3-net';
+import * as Utils from '@daocasino/web3-utils';
+import {formatters} from '@daocasino/web3-core-helpers';
 import ShhModuleFactory from './factories/ShhModuleFactory';
 
 /**

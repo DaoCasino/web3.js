@@ -20,7 +20,7 @@
  * @date 2018
  */
 
-import {ProviderDetector} from 'web3-providers';
+import {ProviderDetector} from '@daocasino/web3-providers';
 
 // $ExpectType string | HttpProvider | IpcProvider | WebsocketProvider | EthereumProvider | undefined
 new ProviderDetector().detect();

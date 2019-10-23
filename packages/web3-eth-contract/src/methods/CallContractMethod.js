@@ -20,7 +20,7 @@
  * @date 2018
  */
 
-import {CallMethod} from 'web3-core-method';
+import {CallMethod} from '@daocasino/web3-core-method';
 
 export default class CallContractMethod extends CallMethod {
     /**

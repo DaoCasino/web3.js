@@ -20,7 +20,7 @@
  * @date 2018
  */
 
-import {BN, keccak256} from 'web3-utils';
+import {BN, keccak256} from '@daocasino/web3-utils';
 
 // $ExpectType string
 keccak256('234');

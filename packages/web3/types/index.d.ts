@@ -17,15 +17,15 @@
  * @date 2018
  */
 
-import {AbstractWeb3Module, Web3ModuleOptions} from 'web3-core';
-import {Utils} from 'web3-utils';
+import {AbstractWeb3Module, Web3ModuleOptions} from '@daocasino/web3-core';
+import {Utils} from '@daocasino/web3-utils';
 import * as net from 'net';
-import {provider} from 'web3-providers';
-import {Eth} from 'web3-eth';
-import {Network} from 'web3-net';
-import {Shh} from 'web3-shh';
-import {Bzz} from 'web3-bzz';
-import {Personal} from 'web3-eth-personal';
+import {provider} from '@daocasino/web3-providers';
+import {Eth} from '@daocasino/web3-eth';
+import {Network} from '@daocasino/web3-net';
+import {Shh} from '@daocasino/web3-shh';
+import {Bzz} from '@daocasino/web3-bzz';
+import {Personal} from '@daocasino/web3-eth-personal';
 
 export default class Web3 extends AbstractWeb3Module {
     constructor(

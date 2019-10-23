@@ -14,7 +14,7 @@ npm install web3-core-promievent
 ## Usage
 
 ```js
-import PromiEvent from 'web3-core-promievent';
+import PromiEvent from '@daocasino/web3-core-promievent';
 
 new PromiEvent();
 ```

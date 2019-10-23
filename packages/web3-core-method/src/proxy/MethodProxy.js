@@ -20,7 +20,7 @@
  * @date 2018
  */
 
-import {PromiEvent} from 'web3-core-promievent';
+import {PromiEvent} from '@daocasino/web3-core-promievent';
 
 export default class MethodProxy {
     /**

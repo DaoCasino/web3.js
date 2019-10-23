@@ -6,7 +6,7 @@ import {
     WebsocketProvider,
     HttpProvider,
     IpcProvider
-} from 'web3-providers';
+} from '@daocasino/web3-providers';
 import AbstractWeb3Module from '../../src/AbstractWeb3Module';
 import MethodProxy from '../__mocks__/MethodProxy';
 import MethodModuleFactory from '../__mocks__/MethodModuleFactory';

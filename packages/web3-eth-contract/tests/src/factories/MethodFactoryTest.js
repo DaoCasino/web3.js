@@ -1,8 +1,8 @@
-import {MethodModuleFactory, EstimateGasMethod} from 'web3-core-method';
-import {Accounts} from 'web3-eth-accounts';
-import * as Utils from 'web3-utils';
-import {formatters} from 'web3-core-helpers';
-import {AbiCoder} from 'web3-eth-abi';
+import {MethodModuleFactory, EstimateGasMethod} from '@daocasino/web3-core-method';
+import {Accounts} from '@daocasino/web3-eth-accounts';
+import * as Utils from '@daocasino/web3-utils';
+import {formatters} from '@daocasino/web3-core-helpers';
+import {AbiCoder} from '@daocasino/web3-eth-abi';
 
 import MethodFactory from '../../../src/factories/MethodFactory';
 import ContractModuleFactory from '../../../src/factories/ContractModuleFactory';

@@ -17,9 +17,9 @@
  * @date 2018
  */
 
-import {Utils} from 'web3-utils';
-import {AbstractWeb3Module, PromiEvent} from 'web3-core';
-import {formatters} from 'web3-core-helpers';
+import {Utils} from '@daocasino/web3-utils';
+import {AbstractWeb3Module, PromiEvent} from '@daocasino/web3-core';
+import {formatters} from '@daocasino/web3-core-helpers';
 
 export class AbstractMethod {
     constructor(rpcMethod: string, parametersAmount: number, utils: Utils, formatters: formatters);

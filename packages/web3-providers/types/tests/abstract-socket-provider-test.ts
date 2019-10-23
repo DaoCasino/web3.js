@@ -20,8 +20,8 @@
  * @date 2018
  */
 
-import {AbstractWeb3Module} from 'web3-core';
-import {AbstractSocketProvider, ProvidersModuleFactory} from 'web3-providers';
+import {AbstractWeb3Module} from '@daocasino/web3-core';
+import {AbstractSocketProvider, ProvidersModuleFactory} from '@daocasino/web3-providers';
 
 const abstractSocketProvider = new AbstractSocketProvider({});
 

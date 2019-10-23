@@ -20,7 +20,7 @@
  * @date 2018
  */
 
-import {SendTransactionMethod} from 'web3-core-method';
+import {SendTransactionMethod} from '@daocasino/web3-core-method';
 
 export default class ContractDeployMethod extends SendTransactionMethod {
     /**

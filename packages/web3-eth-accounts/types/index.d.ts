@@ -17,8 +17,8 @@
  * @date 2018
  */
 
-import {AbstractWeb3Module, Transaction, Web3ModuleOptions} from 'web3-core';
-import {provider} from 'web3-providers';
+import {AbstractWeb3Module, Transaction, Web3ModuleOptions} from '@daocasino/web3-core';
+import {provider} from '@daocasino/web3-providers';
 
 export class Accounts extends AbstractWeb3Module {
     constructor(

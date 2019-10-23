@@ -23,7 +23,7 @@
 import isFunction from 'lodash/isFunction';
 import isString from 'lodash/isString';
 import cloneDeep from 'lodash/cloneDeep';
-import {PromiEvent} from 'web3-core-promievent';
+import {PromiEvent} from '@daocasino/web3-core-promievent';
 
 export default class AbstractMethod {
     /**

@@ -20,7 +20,7 @@
  * @date 2018
  */
 
-import {isBN, BN} from 'web3-utils';
+import {isBN, BN} from '@daocasino/web3-utils';
 
 // $ExpectType boolean
 isBN(7);

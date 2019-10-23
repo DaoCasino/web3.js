@@ -14,7 +14,7 @@ npm install web3-eth-abi
 ## Usage
 
 ```js
-import {AbiCoder} from 'web3-eth-abi';
+import {AbiCoder} from '@daocasino/web3-eth-abi';
 
 new AbiCoder();
 ```

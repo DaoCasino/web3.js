@@ -20,8 +20,8 @@
  * @date 2018
  */
 
-import {PromiEvent} from 'web3-core-promievent';
-import {AbstractWeb3Module} from 'web3-core';
+import {PromiEvent} from '@daocasino/web3-core-promievent';
+import {AbstractWeb3Module} from '@daocasino/web3-core';
 
 export default class Eth extends AbstractWeb3Module {
     /**

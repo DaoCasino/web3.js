@@ -20,7 +20,7 @@
  * @date 2018
  */
 
-import {toBN} from 'web3-utils';
+import {toBN} from '@daocasino/web3-utils';
 
 // $ExpectType BN
 toBN(4);

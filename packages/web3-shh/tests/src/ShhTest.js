@@ -1,6 +1,6 @@
-import * as Utils from 'web3-utils';
-import {formatters} from 'web3-core-helpers';
-import {AbstractSubscription, SubscriptionsFactory} from 'web3-core-subscriptions';
+import * as Utils from '@daocasino/web3-utils';
+import {formatters} from '@daocasino/web3-core-helpers';
+import {AbstractSubscription, SubscriptionsFactory} from '@daocasino/web3-core-subscriptions';
 import {
     AddPrivateKeyMethod,
     AddSymKeyMethod,
@@ -24,9 +24,9 @@ import {
     SetMaxMessageSizeMethod,
     SetMinPoWMethod,
     ShhVersionMethod
-} from 'web3-core-method';
-import {Network} from 'web3-net';
-import {HttpProvider, ProviderDetector, ProviderResolver, ProvidersModuleFactory} from 'web3-providers';
+} from '@daocasino/web3-core-method';
+import {Network} from '@daocasino/web3-net';
+import {HttpProvider, ProviderDetector, ProviderResolver, ProvidersModuleFactory} from '@daocasino/web3-providers';
 import MethodFactory from '../../src/factories/MethodFactory';
 import Shh from '../../src/Shh';
 

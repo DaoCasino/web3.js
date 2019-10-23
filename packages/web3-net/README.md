@@ -14,7 +14,7 @@ npm install web3-net
 ## Usage
 
 ```js
-import {Network} from 'web3-net';
+import {Network} from '@daocasino/web3-net';
 
 const net = new Network(
     'http://127.0.0.1:4546',

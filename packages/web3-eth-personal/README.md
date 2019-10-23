@@ -14,7 +14,7 @@ npm install web3-eth-personal
 ## Usage
 
 ```js
-import {Personal} from 'web3-eth-personal';
+import {Personal} from '@daocasino/web3-eth-personal';
 
 const personal = new Personal(
     'http://127.0.0.1:4546',

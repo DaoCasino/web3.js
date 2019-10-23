@@ -1,8 +1,8 @@
-import * as Utils from 'web3-utils';
-import {formatters} from 'web3-core-helpers';
-import {HttpProvider, ProviderDetector, ProviderResolver, ProvidersModuleFactory} from 'web3-providers';
-import {GetGasPriceMethod, GetTransactionCountMethod, MethodModuleFactory, VersionMethod} from 'web3-core-method';
-import {AbstractWeb3Module} from 'web3-core';
+import * as Utils from '@daocasino/web3-utils';
+import {formatters} from '@daocasino/web3-core-helpers';
+import {HttpProvider, ProviderDetector, ProviderResolver, ProvidersModuleFactory} from '@daocasino/web3-providers';
+import {GetGasPriceMethod, GetTransactionCountMethod, MethodModuleFactory, VersionMethod} from '@daocasino/web3-core-method';
+import {AbstractWeb3Module} from '@daocasino/web3-core';
 import Account from 'eth-lib/lib/account';
 import Hash from 'eth-lib/lib/hash';
 import RLP from 'eth-lib/lib/rlp';

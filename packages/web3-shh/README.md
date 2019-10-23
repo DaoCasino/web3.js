@@ -14,7 +14,7 @@ npm install web3-shh
 ## Usage
 
 ```js
-import {Shh} from 'web3-shh';
+import {Shh} from '@daocasino/web3-shh';
 
 const shh = new Shh(
     'http://127.0.0.1:4546',

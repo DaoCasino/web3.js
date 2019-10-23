@@ -18,9 +18,9 @@
  * @date 2018
  */
 
-import {Accounts} from 'web3-eth-accounts';
-import {provider} from 'web3-providers';
-import {AbstractWeb3Module, Providers, RLPEncodedTransaction, Transaction, Web3ModuleOptions} from 'web3-core';
+import {Accounts} from '@daocasino/web3-eth-accounts';
+import {provider} from '@daocasino/web3-providers';
+import {AbstractWeb3Module, Providers, RLPEncodedTransaction, Transaction, Web3ModuleOptions} from '@daocasino/web3-core';
 
 export class Personal extends AbstractWeb3Module {
     constructor(provider: provider, accounts: Accounts, options?: Web3ModuleOptions);

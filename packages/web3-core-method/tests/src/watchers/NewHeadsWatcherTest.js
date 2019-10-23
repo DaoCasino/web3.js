@@ -1,6 +1,6 @@
-import {AbstractSubscription, SubscriptionsFactory} from 'web3-core-subscriptions';
-import {AbstractWeb3Module} from 'web3-core';
-import {WebsocketProvider, HttpProvider} from 'web3-providers';
+import {AbstractSubscription, SubscriptionsFactory} from '@daocasino/web3-core-subscriptions';
+import {AbstractWeb3Module} from '@daocasino/web3-core';
+import {WebsocketProvider, HttpProvider} from '@daocasino/web3-providers';
 import NewHeadsWatcher from '../../../src/watchers/NewHeadsWatcher';
 
 // Mocks

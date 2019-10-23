@@ -17,9 +17,9 @@
  * @date 2018
  */
 
-import {AbstractWeb3Module} from 'web3-core';
-import {formatters} from 'web3-core-helpers';
-import {ProvidersModuleFactory} from 'web3-providers';
+import {AbstractWeb3Module} from '@daocasino/web3-core';
+import {formatters} from '@daocasino/web3-core-helpers';
+import {ProvidersModuleFactory} from '@daocasino/web3-providers';
 
 // $ExpectType number
 formatters.outputBigNumberFormatter(100);

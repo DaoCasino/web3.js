@@ -20,7 +20,7 @@
  * @date 2018
  */
 
-import {JsonRpcMapper} from 'web3-providers';
+import {JsonRpcMapper} from '@daocasino/web3-providers';
 
 // $ExpectType JsonRpcPayload
 JsonRpcMapper.toPayload('method', [3]);

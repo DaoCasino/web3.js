@@ -20,7 +20,7 @@
  * @date 2018
  */
 
-import {LogSubscription} from 'web3-core-subscriptions';
+import {LogSubscription} from '@daocasino/web3-core-subscriptions';
 
 export default class AllEventsLogSubscription extends LogSubscription {
     /**

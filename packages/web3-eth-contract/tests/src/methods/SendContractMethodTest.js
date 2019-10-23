@@ -1,7 +1,7 @@
-import * as Utils from 'web3-utils';
-import {formatters} from 'web3-core-helpers';
-import {Accounts} from 'web3-eth-accounts';
-import {SendTransactionMethod} from 'web3-core-method';
+import * as Utils from '@daocasino/web3-utils';
+import {formatters} from '@daocasino/web3-core-helpers';
+import {Accounts} from '@daocasino/web3-eth-accounts';
+import {SendTransactionMethod} from '@daocasino/web3-core-method';
 import TransactionConfirmationWorkflow from '../../__mocks__/TransactionConfirmationWorkflow';
 import TransactionSigner from '../../__mocks__/TransactionSigner';
 import AllEventsLogDecoder from '../../../src/decoders/AllEventsLogDecoder';

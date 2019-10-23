@@ -20,7 +20,7 @@
  * @date 2018
  */
 
-import {BN, toWei} from 'web3-utils';
+import {BN, toWei} from '@daocasino/web3-utils';
 
 const bigNumber = new BN(3);
 

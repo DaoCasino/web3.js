@@ -34,7 +34,7 @@ import Nat from 'eth-lib/lib/nat';
 import Bytes from 'eth-lib/lib/bytes';
 import scryptsy from 'scrypt.js';
 import uuid from 'uuid';
-import {AbstractWeb3Module} from 'web3-core';
+import {AbstractWeb3Module} from '@daocasino/web3-core';
 
 const cryp = typeof global === 'undefined' ? require('crypto-browserify') : require('crypto');
 

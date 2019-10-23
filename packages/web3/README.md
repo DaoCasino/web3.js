@@ -15,7 +15,7 @@ npm install web3
 ### Usage
 
 ```js 
-import Web3 from 'web3';
+import Web3 from '@daocasino/web3';
 
 new Web3(...);
 ```

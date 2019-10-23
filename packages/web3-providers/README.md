@@ -14,7 +14,7 @@ npm install web3-providers
 You can pass with the options object the timeout and all known HTTP headers. 
 
 ```js 
-import {HttpProvider} from 'web3-providers';
+import {HttpProvider} from '@daocasino/web3-providers';
 
 const options = {
     timeout: 20000,
@@ -35,7 +35,7 @@ Instead of setting a authorization header you could also define the credentials 
 ```ws://username:password@localhost:8546```
 
 ```js 
-import {WebsocketProvider} from 'web3-providers';
+import {WebsocketProvider} from '@daocasino/web3-providers';
 const options = { 
     timeout: 30000, 
     headers: {
@@ -48,7 +48,7 @@ const websocketProvider = new WebsocketProvider('ws://localhost:8546', options);
 
 #### IpcProvider
 ```js 
-import {IpcProvider} from 'web3-providers';
+import {IpcProvider} from '@daocasino/web3-providers';
 import net from 'net';
 
 const ipcProvider = new IpcProvider('/Users/me/Library/Ethereum/geth.ipc', net);
@@ -80,7 +80,7 @@ await batchRequest.execute();
 Checks if an provider is given from the environment (Mist, MetaMask) and returns the provider.
 
 ```js
-import {ProvidersModuleFactory} from 'web3-providers';
+import {ProvidersModuleFactory} from '@daocasino/web3-providers';
 
 const providerDetector = new ProvidersModuleFactory.createProviderDetector();
 const givenProvider = providerDetector.detect();

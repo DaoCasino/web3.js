@@ -16,7 +16,7 @@ npm install web3-core-helpers
 ## Usage
 
 ```js
-import {errors, formatters} from 'web3-core-helpers';
+import {errors, formatters} from '@daocasino/web3-core-helpers';
 ```
 
 ## Types 

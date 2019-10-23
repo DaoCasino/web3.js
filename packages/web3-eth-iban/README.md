@@ -14,7 +14,7 @@ npm install web3-eth-iban
 ## Usage
 
 ```js
-import {Iban} from 'web3-eth-iban';
+import {Iban} from '@daocasino/web3-eth-iban';
 
 new Iban('XE75JRZCTTLBSYEQBGAS7GID8DKR7QY0QA3');
 ```

@@ -1,5 +1,5 @@
-import * as Utils from 'web3-utils';
-import {formatters} from 'web3-core-helpers';
+import * as Utils from '@daocasino/web3-utils';
+import {formatters} from '@daocasino/web3-core-helpers';
 import Accounts from '../../../src/Accounts';
 import AccountsModuleFactory from '../../../src/factories/AccountsModuleFactory';
 import MethodFactory from '../../../src/factories/MethodFactory';

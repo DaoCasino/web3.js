@@ -17,7 +17,7 @@
  * @date 2018
  */
 
-import {AbstractWeb3Module} from 'web3-core';
+import {AbstractWeb3Module} from '@daocasino/web3-core';
 import isFunction from 'lodash/isFunction';
 import namehash from 'eth-ens-namehash';
 

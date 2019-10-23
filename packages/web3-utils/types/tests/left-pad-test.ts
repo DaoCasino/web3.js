@@ -20,7 +20,7 @@
  * @date 2018
  */
 
-import {BN, leftPad} from 'web3-utils';
+import {BN, leftPad} from '@daocasino/web3-utils';
 
 const bigNumber = new BN(3);
 // $ExpectType string

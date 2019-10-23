@@ -1,10 +1,10 @@
-import * as Utils from 'web3-utils';
-import {formatters} from 'web3-core-helpers';
-import {PromiEvent} from 'web3-core-promievent';
-import {HttpProvider, ProvidersModuleFactory} from 'web3-providers';
-import {MethodModuleFactory} from 'web3-core-method';
-import {Network} from 'web3-net';
-import {AbiCoder} from 'web3-eth-abi';
+import * as Utils from '@daocasino/web3-utils';
+import {formatters} from '@daocasino/web3-core-helpers';
+import {PromiEvent} from '@daocasino/web3-core-promievent';
+import {HttpProvider, ProvidersModuleFactory} from '@daocasino/web3-providers';
+import {MethodModuleFactory} from '@daocasino/web3-core-method';
+import {Network} from '@daocasino/web3-net';
+import {AbiCoder} from '@daocasino/web3-eth-abi';
 import Registry from '../../src/contracts/Registry';
 import namehash from 'eth-ens-namehash';
 import Ens from '../../src/Ens';

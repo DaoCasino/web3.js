@@ -14,7 +14,7 @@ npm install web3-eth-contract
 ## Usage
 
 ```js
-import {Contract} from 'web3-eth-contract';
+import {Contract} from '@daocasino/web3-eth-contract';
 
 new Contract(
     'http://127.0.0.1:4546',

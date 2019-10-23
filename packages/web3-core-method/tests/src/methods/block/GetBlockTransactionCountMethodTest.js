@@ -1,5 +1,5 @@
-import * as Utils from 'web3-utils';
-import {formatters} from 'web3-core-helpers';
+import * as Utils from '@daocasino/web3-utils';
+import {formatters} from '@daocasino/web3-core-helpers';
 import AbstractCallMethod from '../../../../lib/methods/AbstractCallMethod';
 import GetBlockTransactionCountMethod from '../../../../src/methods/block/GetBlockTransactionCountMethod';
 

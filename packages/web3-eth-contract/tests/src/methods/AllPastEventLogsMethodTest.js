@@ -1,6 +1,6 @@
-import * as Utils from 'web3-utils';
-import {formatters} from 'web3-core-helpers';
-import {GetPastLogsMethod} from 'web3-core-method';
+import * as Utils from '@daocasino/web3-utils';
+import {formatters} from '@daocasino/web3-core-helpers';
+import {GetPastLogsMethod} from '@daocasino/web3-core-method';
 import AllEventsLogDecoder from '../../../src/decoders/AllEventsLogDecoder';
 import AbiModel from '../../../src/models/AbiModel';
 import AllPastEventLogsMethod from '../../../src/methods/AllPastEventLogsMethod';

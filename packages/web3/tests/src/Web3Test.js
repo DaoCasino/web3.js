@@ -1,10 +1,10 @@
-import {Eth} from 'web3-eth';
-import {Bzz} from 'web3-bzz';
-import {Shh} from 'web3-shh';
-import {Network} from 'web3-net';
-import {Personal} from 'web3-eth-personal';
-import {AbstractWeb3Module} from 'web3-core';
-import * as Utils from 'web3-utils';
+import {Eth} from '@daocasino/web3-eth';
+import {Bzz} from '@daocasino/web3-bzz';
+import {Shh} from '@daocasino/web3-shh';
+import {Network} from '@daocasino/web3-net';
+import {Personal} from '@daocasino/web3-eth-personal';
+import {AbstractWeb3Module} from '@daocasino/web3-core';
+import * as Utils from '@daocasino/web3-utils';
 import Web3 from '../../src/Web3';
 
 // Mocks

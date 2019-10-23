@@ -1,8 +1,8 @@
-import {AbiCoder} from 'web3-eth-abi';
-import {MethodModuleFactory} from 'web3-core-method';
-import {Accounts} from 'web3-eth-accounts';
-import * as Utils from 'web3-utils';
-import {formatters} from 'web3-core-helpers';
+import {AbiCoder} from '@daocasino/web3-eth-abi';
+import {MethodModuleFactory} from '@daocasino/web3-core-method';
+import {Accounts} from '@daocasino/web3-eth-accounts';
+import * as Utils from '@daocasino/web3-utils';
+import {formatters} from '@daocasino/web3-core-helpers';
 
 import MethodOptionsValidator from '../../../src/validators/MethodOptionsValidator';
 import MethodOptionsMapper from '../../../src/mappers/MethodOptionsMapper';

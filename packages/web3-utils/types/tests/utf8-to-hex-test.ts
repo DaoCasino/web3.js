@@ -20,7 +20,7 @@
  * @date 2018
  */
 
-import {BN, utf8ToHex} from 'web3-utils';
+import {BN, utf8ToHex} from '@daocasino/web3-utils';
 
 // $ExpectType string
 utf8ToHex('I have 100£');

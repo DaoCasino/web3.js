@@ -1,5 +1,5 @@
-import {PromiEvent} from 'web3-core-promievent';
-import {EstimateGasMethod} from 'web3-core-method';
+import {PromiEvent} from '@daocasino/web3-core-promievent';
+import {EstimateGasMethod} from '@daocasino/web3-core-method';
 import MethodEncoder from '../../../src/encoders/MethodEncoder';
 import MethodFactory from '../../../src/factories/MethodFactory';
 import MethodOptionsMapper from '../../../src/mappers/MethodOptionsMapper';

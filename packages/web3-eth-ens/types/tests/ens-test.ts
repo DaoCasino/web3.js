@@ -17,8 +17,8 @@
  * @date 2018
  */
 
-import {Accounts} from 'web3-eth-accounts';
-import {Ens} from 'web3-eth-ens';
+import {Accounts} from '@daocasino/web3-eth-accounts';
+import {Ens} from '@daocasino/web3-eth-ens';
 
 const ens = new Ens('http://localhost:7545', new Accounts('http://localhost:7545'), {});
 

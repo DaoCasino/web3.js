@@ -20,7 +20,7 @@
  * @date 2017
  */
 
-import {AbstractWeb3Module} from 'web3-core';
+import {AbstractWeb3Module} from '@daocasino/web3-core';
 
 export default class Shh extends AbstractWeb3Module {
     /**

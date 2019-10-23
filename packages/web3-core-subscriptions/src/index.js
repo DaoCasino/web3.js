@@ -20,8 +20,8 @@
  * @date 2018
  */
 
-import * as Utils from 'web3-utils';
-import {formatters} from 'web3-core-helpers';
+import * as Utils from '@daocasino/web3-utils';
+import {formatters} from '@daocasino/web3-core-helpers';
 import SubscriptionsModuleFactory from './factories/SubscriptionsModuleFactory';
 
 /**

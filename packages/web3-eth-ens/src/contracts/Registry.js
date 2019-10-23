@@ -19,7 +19,7 @@
 
 import isFunction from 'lodash/isFunction';
 import namehash from 'eth-ens-namehash';
-import {AbstractContract} from 'web3-eth-contract';
+import {AbstractContract} from '@daocasino/web3-eth-contract';
 import {REGISTRY_ABI} from '../../ressources/ABI/Registry';
 import {RESOLVER_ABI} from '../../ressources/ABI/Resolver';
 

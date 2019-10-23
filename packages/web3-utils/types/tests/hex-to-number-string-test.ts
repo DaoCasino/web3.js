@@ -20,7 +20,7 @@
  * @date 2018
  */
 
-import {BN, hexToNumberString} from 'web3-utils';
+import {BN, hexToNumberString} from '@daocasino/web3-utils';
 
 // $ExpectType string
 hexToNumberString('0xea');

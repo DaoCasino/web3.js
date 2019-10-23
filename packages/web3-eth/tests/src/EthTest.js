@@ -1,6 +1,6 @@
-import * as Utils from 'web3-utils';
-import {formatters} from 'web3-core-helpers';
-import {AbstractSubscription, LogSubscription, SubscriptionsFactory} from 'web3-core-subscriptions';
+import * as Utils from '@daocasino/web3-utils';
+import {formatters} from '@daocasino/web3-core-helpers';
+import {AbstractSubscription, LogSubscription, SubscriptionsFactory} from '@daocasino/web3-core-subscriptions';
 import {
     CallMethod,
     EstimateGasMethod,
@@ -33,15 +33,15 @@ import {
     SignMethod,
     SignTransactionMethod,
     SubmitWorkMethod
-} from 'web3-core-method';
-import {AbiCoder} from 'web3-eth-abi';
-import {Accounts} from 'web3-eth-accounts';
-import {Ens} from 'web3-eth-ens';
-import {Iban} from 'web3-eth-iban';
-import {Personal} from 'web3-eth-personal';
-import {Network} from 'web3-net';
-import {AbstractContract, ContractModuleFactory} from 'web3-eth-contract';
-import {HttpProvider, ProviderDetector, ProviderResolver, ProvidersModuleFactory} from 'web3-providers';
+} from '@daocasino/web3-core-method';
+import {AbiCoder} from '@daocasino/web3-eth-abi';
+import {Accounts} from '@daocasino/web3-eth-accounts';
+import {Ens} from '@daocasino/web3-eth-ens';
+import {Iban} from '@daocasino/web3-eth-iban';
+import {Personal} from '@daocasino/web3-eth-personal';
+import {Network} from '@daocasino/web3-net';
+import {AbstractContract, ContractModuleFactory} from '@daocasino/web3-eth-contract';
+import {HttpProvider, ProviderDetector, ProviderResolver, ProvidersModuleFactory} from '@daocasino/web3-providers';
 import MethodFactory from '../../src/factories/MethodFactory';
 import Eth from '../../src/Eth';
 

@@ -16,7 +16,7 @@ npm install web3-utils
 Import all of the utils functions
 
 ```js
-import * as Utils from 'web3-utils';
+import * as Utils from '@daocasino/web3-utils';
 
 console.log(Utils);
 > {
@@ -30,7 +30,7 @@ console.log(Utils);
 Import what you need
 
 ```js
-import { asciiToHex } from 'web3-utils';
+import { asciiToHex } from '@daocasino/web3-utils';
 
 console.log(asciiToHex('I have 100!'));
 > "0x49206861766520313030e282ac"

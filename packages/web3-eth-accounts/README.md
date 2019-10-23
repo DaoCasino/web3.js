@@ -16,7 +16,7 @@ npm install web3-eth-accounts
 ## Usage
 
 ```js
-import {Accounts} from 'web3-eth-accounts';
+import {Accounts} from '@daocasino/web3-eth-accounts';
 
 const accounts = new Accounts(
     'http://127.0.0.1:4546',

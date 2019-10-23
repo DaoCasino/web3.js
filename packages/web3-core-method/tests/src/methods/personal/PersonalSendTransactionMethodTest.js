@@ -1,4 +1,4 @@
-import {formatters} from 'web3-core-helpers';
+import {formatters} from '@daocasino/web3-core-helpers';
 import PersonalSendTransactionMethod from '../../../../src/methods/personal/PersonalSendTransactionMethod';
 import AbstractCallMethod from '../../../../lib/methods/AbstractCallMethod';
 

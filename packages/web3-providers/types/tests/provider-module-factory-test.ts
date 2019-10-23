@@ -21,8 +21,8 @@
  */
 
 import * as net from "net";
-import {AbstractWeb3Module} from 'web3-core';
-import {ProvidersModuleFactory} from 'web3-providers';
+import {AbstractWeb3Module} from '@daocasino/web3-core';
+import {ProvidersModuleFactory} from '@daocasino/web3-providers';
 
 const providersModuleFactory = new ProvidersModuleFactory();
 

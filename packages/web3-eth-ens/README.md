@@ -14,7 +14,7 @@ npm install web3-eth-ens
 ## Usage
 
 ```js
-import {Ens} from 'web3-eth-ens';
+import {Ens} from '@daocasino/web3-eth-ens';
 
 new Ens(
     'ws://localhost:8546',

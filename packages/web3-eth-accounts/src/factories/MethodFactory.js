@@ -20,7 +20,7 @@
  * @date 2018
  */
 
-import {AbstractMethodFactory, GetGasPriceMethod, GetTransactionCountMethod, VersionMethod} from 'web3-core-method';
+import {AbstractMethodFactory, GetGasPriceMethod, GetTransactionCountMethod, VersionMethod} from '@daocasino/web3-core-method';
 
 export default class MethodFactory extends AbstractMethodFactory {
     /**

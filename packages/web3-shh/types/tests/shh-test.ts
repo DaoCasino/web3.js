@@ -17,7 +17,7 @@
  * @date 2018
  */
 
-import {Shh, Info, Notification} from 'web3-shh';
+import {Shh, Info, Notification} from '@daocasino/web3-shh';
 
 const shh = new Shh('https://localhost:5000');
 

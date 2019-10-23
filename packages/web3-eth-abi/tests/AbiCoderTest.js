@@ -1,4 +1,4 @@
-import * as Utils from 'web3-utils';
+import * as Utils from '@daocasino/web3-utils';
 import {AbiCoder as EthersAbiCoder} from 'ethers/utils/abi-coder';
 import AbiCoder from '../src/AbiCoder';
 

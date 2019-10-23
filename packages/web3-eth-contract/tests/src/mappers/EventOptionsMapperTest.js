@@ -1,4 +1,4 @@
-import {formatters} from 'web3-core-helpers';
+import {formatters} from '@daocasino/web3-core-helpers';
 
 import EventFilterEncoder from '../../../src/encoders/EventFilterEncoder';
 import EventOptionsMapper from '../../../src/mappers/EventOptionsMapper';

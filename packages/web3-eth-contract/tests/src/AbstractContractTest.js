@@ -1,10 +1,10 @@
-import * as Utils from 'web3-utils';
-import {formatters} from 'web3-core-helpers';
-import {AbiCoder} from 'web3-eth-abi';
-import {HttpProvider, ProvidersModuleFactory, ProviderDetector, ProviderResolver} from 'web3-providers';
-import {MethodModuleFactory, GetPastLogsMethod} from 'web3-core-method';
-import {PromiEvent} from 'web3-core-promievent';
-import {AbstractWeb3Module} from 'web3-core';
+import * as Utils from '@daocasino/web3-utils';
+import {formatters} from '@daocasino/web3-core-helpers';
+import {AbiCoder} from '@daocasino/web3-eth-abi';
+import {HttpProvider, ProvidersModuleFactory, ProviderDetector, ProviderResolver} from '@daocasino/web3-providers';
+import {MethodModuleFactory, GetPastLogsMethod} from '@daocasino/web3-core-method';
+import {PromiEvent} from '@daocasino/web3-core-promievent';
+import {AbstractWeb3Module} from '@daocasino/web3-core';
 import AbiMapper from '../../src/mappers/AbiMapper';
 import ContractModuleFactory from '../../src/factories/ContractModuleFactory';
 import MethodFactory from '../../src/factories/MethodFactory';

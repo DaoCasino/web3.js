@@ -20,7 +20,7 @@
  * @date 2018
  */
 
-import {BN, isHex} from 'web3-utils';
+import {BN, isHex} from '@daocasino/web3-utils';
 
 // $ExpectType boolean
 isHex('0xc1912');

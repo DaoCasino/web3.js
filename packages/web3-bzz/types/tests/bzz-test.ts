@@ -17,7 +17,7 @@
  * @date 2018
  */
 
-import {Bzz} from 'web3-bzz';
+import {Bzz} from '@daocasino/web3-bzz';
 
 const bzz = new Bzz('http://swarm-gateways.net');
 

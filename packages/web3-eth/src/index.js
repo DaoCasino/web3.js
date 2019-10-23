@@ -20,19 +20,19 @@
  * @date 2018
  */
 
-import {MethodModuleFactory} from 'web3-core-method';
-import {formatters} from 'web3-core-helpers';
-import {PromiEvent} from 'web3-core-promievent';
-import {SubscriptionsFactory} from 'web3-core-subscriptions';
-import {Accounts} from 'web3-eth-accounts';
-import {Ens} from 'web3-eth-ens';
-import {ContractModuleFactory} from 'web3-eth-contract';
-import {Personal} from 'web3-eth-personal';
-import {AbiCoder} from 'web3-eth-abi';
-import {Iban} from 'web3-eth-iban';
-import {ProvidersModuleFactory} from 'web3-providers';
-import {Network} from 'web3-net';
-import * as Utils from 'web3-utils';
+import {MethodModuleFactory} from '@daocasino/web3-core-method';
+import {formatters} from '@daocasino/web3-core-helpers';
+import {PromiEvent} from '@daocasino/web3-core-promievent';
+import {SubscriptionsFactory} from '@daocasino/web3-core-subscriptions';
+import {Accounts} from '@daocasino/web3-eth-accounts';
+import {Ens} from '@daocasino/web3-eth-ens';
+import {ContractModuleFactory} from '@daocasino/web3-eth-contract';
+import {Personal} from '@daocasino/web3-eth-personal';
+import {AbiCoder} from '@daocasino/web3-eth-abi';
+import {Iban} from '@daocasino/web3-eth-iban';
+import {ProvidersModuleFactory} from '@daocasino/web3-providers';
+import {Network} from '@daocasino/web3-net';
+import * as Utils from '@daocasino/web3-utils';
 import EthModuleFactory from './factories/EthModuleFactory';
 
 /**

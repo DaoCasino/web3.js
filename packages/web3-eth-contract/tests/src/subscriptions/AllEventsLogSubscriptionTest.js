@@ -1,7 +1,7 @@
-import * as Utils from 'web3-utils';
-import {formatters} from 'web3-core-helpers';
-import {LogSubscription} from 'web3-core-subscriptions';
-import {GetPastLogsMethod} from 'web3-core-method';
+import * as Utils from '@daocasino/web3-utils';
+import {formatters} from '@daocasino/web3-core-helpers';
+import {LogSubscription} from '@daocasino/web3-core-subscriptions';
+import {GetPastLogsMethod} from '@daocasino/web3-core-method';
 import AllEventsLogSubscription from '../../../src/subscriptions/AllEventsLogSubscription';
 import AbstractContract from '../../../src/AbstractContract';
 import AllEventsLogDecoder from '../../../src/decoders/AllEventsLogDecoder';

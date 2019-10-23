@@ -1,8 +1,8 @@
-import {WebsocketProvider} from 'web3-providers';
-import {AbstractWeb3Module} from 'web3-core';
-import * as Utils from 'web3-utils';
-import {formatters} from 'web3-core-helpers';
-import {PromiEvent} from 'web3-core-promievent';
+import {WebsocketProvider} from '@daocasino/web3-providers';
+import {AbstractWeb3Module} from '@daocasino/web3-core';
+import * as Utils from '@daocasino/web3-utils';
+import {formatters} from '@daocasino/web3-core-helpers';
+import {PromiEvent} from '@daocasino/web3-core-promievent';
 import TransactionConfirmationWorkflow from '../../../src/workflows/TransactionConfirmationWorkflow';
 import AbstractSendMethod from '../../../lib/methods/AbstractSendMethod';
 

@@ -20,7 +20,7 @@
  * @date 2018
  */
 
-import {toTwosComplement, BN} from 'web3-utils';
+import {toTwosComplement, BN} from '@daocasino/web3-utils';
 
 // $ExpectType string
 toTwosComplement(4);

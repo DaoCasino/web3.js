@@ -13,7 +13,7 @@ This is the swarm package of web3.js for further information please read the [do
 ## Usage
 
 ```js
-import {Bzz} from 'web3-bzz';
+import {Bzz} from '@daocasino/web3-bzz';
 
 new Bzz('http://swarm-gateways.net');
 ```

@@ -17,15 +17,15 @@
  * @date 2018
  */
 
-import {MethodModuleFactory} from 'web3-core-method';
-import {Accounts} from 'web3-eth-accounts';
-import {AbiCoder} from 'web3-eth-abi';
-import {Contract, ContractModuleFactory} from 'web3-eth-contract';
-import {ProvidersModuleFactory, provider} from 'web3-providers';
-import {AbstractWeb3Module, PromiEvent} from 'web3-core';
-import {formatters} from 'web3-core-helpers';
-import {Network} from 'web3-net';
-import {Utils} from 'web3-utils';
+import {MethodModuleFactory} from '@daocasino/web3-core-method';
+import {Accounts} from '@daocasino/web3-eth-accounts';
+import {AbiCoder} from '@daocasino/web3-eth-abi';
+import {Contract, ContractModuleFactory} from '@daocasino/web3-eth-contract';
+import {ProvidersModuleFactory, provider} from '@daocasino/web3-providers';
+import {AbstractWeb3Module, PromiEvent} from '@daocasino/web3-core';
+import {formatters} from '@daocasino/web3-core-helpers';
+import {Network} from '@daocasino/web3-net';
+import {Utils} from '@daocasino/web3-utils';
 
 export class Ens extends AbstractWeb3Module {
     constructor(

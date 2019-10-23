@@ -17,8 +17,8 @@
  * @date 2018
  */
 
-import {provider} from 'web3-providers';
-import {AbstractWeb3Module, Web3ModuleOptions} from 'web3-core';
+import {provider} from '@daocasino/web3-providers';
+import {AbstractWeb3Module, Web3ModuleOptions} from '@daocasino/web3-core';
 
 export class Network extends AbstractWeb3Module {
     constructor(

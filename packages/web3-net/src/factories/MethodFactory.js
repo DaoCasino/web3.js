@@ -20,7 +20,7 @@
  * @date 2018
  */
 
-import {AbstractMethodFactory, GetBlockMethod, ListeningMethod, PeerCountMethod, VersionMethod} from 'web3-core-method';
+import {AbstractMethodFactory, GetBlockMethod, ListeningMethod, PeerCountMethod, VersionMethod} from '@daocasino/web3-core-method';
 
 export default class MethodFactory extends AbstractMethodFactory {
     /**

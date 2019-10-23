@@ -1,5 +1,5 @@
-import * as Utils from 'web3-utils';
-import {AbiCoder} from 'web3-eth-abi';
+import * as Utils from '@daocasino/web3-utils';
+import {AbiCoder} from '@daocasino/web3-eth-abi';
 
 import ContractModuleFactory from '../../../src/factories/ContractModuleFactory';
 import AbiMapper from '../../../src/mappers/AbiMapper';

@@ -20,7 +20,7 @@
  * @date 2018
  */
 
-import {AbstractWeb3Module} from 'web3-core';
+import {AbstractWeb3Module} from '@daocasino/web3-core';
 import isFunction from 'lodash/isFunction';
 
 export default class Network extends AbstractWeb3Module {

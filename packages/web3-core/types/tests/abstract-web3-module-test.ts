@@ -17,8 +17,8 @@
  * @date 2018
  */
 import * as net from 'net';
-import {ProvidersModuleFactory, HttpProvider, IpcProvider, WebsocketProvider} from 'web3-providers';
-import {AbstractWeb3Module, Web3ModuleOptions} from 'web3-core';
+import {ProvidersModuleFactory, HttpProvider, IpcProvider, WebsocketProvider} from '@daocasino/web3-providers';
+import {AbstractWeb3Module, Web3ModuleOptions} from '@daocasino/web3-core';
 
 const options = {
     timeout: 20000,

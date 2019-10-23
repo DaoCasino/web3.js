@@ -20,7 +20,7 @@
  * @date 2018
  */
 
-import {BN, getUnitValue} from 'web3-utils';
+import {BN, getUnitValue} from '@daocasino/web3-utils';
 
 // $ExpectType string
 getUnitValue('ether');

@@ -20,7 +20,7 @@
  * @date 2018
  */
 
-import {BN, fromAscii} from 'web3-utils';
+import {BN, fromAscii} from '@daocasino/web3-utils';
 
 // $ExpectType string
 fromAscii('I have 100!');

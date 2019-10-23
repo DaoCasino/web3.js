@@ -43,7 +43,7 @@ import {
     GetFilterMessagesMethod,
     DeleteMessageFilterMethod,
     PostMethod
-} from 'web3-core-method';
+} from '@daocasino/web3-core-method';
 
 export default class MethodFactory extends AbstractMethodFactory {
     /**

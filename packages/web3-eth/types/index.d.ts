@@ -17,7 +17,7 @@
  * @date 2018
  */
 
-import {provider} from 'web3-providers';
+import {provider} from '@daocasino/web3-providers';
 import {
     AbstractWeb3Module,
     Log,
@@ -26,14 +26,14 @@ import {
     Transaction,
     TransactionReceipt,
     Web3ModuleOptions
-} from 'web3-core';
-import {Contract, ContractOptions} from 'web3-eth-contract';
-import {Iban} from 'web3-eth-iban';
-import {Accounts} from 'web3-eth-accounts';
-import {AbiCoder} from 'web3-eth-abi';
-import {Network} from 'web3-net';
-import {Personal} from 'web3-eth-personal';
-import {AbiItem} from 'web3-utils';
+} from '@daocasino/web3-core';
+import {Contract, ContractOptions} from '@daocasino/web3-eth-contract';
+import {Iban} from '@daocasino/web3-eth-iban';
+import {Accounts} from '@daocasino/web3-eth-accounts';
+import {AbiCoder} from '@daocasino/web3-eth-abi';
+import {Network} from '@daocasino/web3-net';
+import {Personal} from '@daocasino/web3-eth-personal';
+import {AbiItem} from '@daocasino/web3-utils';
 
 export class Eth extends AbstractWeb3Module {
     constructor(
